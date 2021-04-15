@@ -70,7 +70,7 @@ c=k
 console.log(c);
 k=c+1
 }
-alert("Rosa assabni buzadigan narsa ekan torisi");
+alert("Rosa asabni buzadigan narsa ekan torisi");
 
 
 
