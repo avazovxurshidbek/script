@@ -18,16 +18,16 @@ var  yosh = prompt('Yoshingizni kiriting')
 if( yosh <= 0){
     alert("Nimadir notog'ri ketib qoldi")   
 }
-else if(0 <= yosh,yosh <= 18){
+else if(0 <= yosh && yosh <= 18){
     alert("Yoshsiz. O'qishingiz kerak")   
 }
-else if(   18 < yosh, yosh <= 50){
+else if(   18 < yosh && yosh <= 50){
     alert("Ishlashingiz kerak")   
 }
-else if(   50 < yosh, yosh <= 59){
+else if(   50 < yosh && yosh <= 59){
     alert("Yaqinda pensiyaga chiqasiz")   
 }
-else if(   59 < yosh, yosh <= 150){
+else if(   59 < yosh && yosh <= 150){
     alert("Pensiyanerga o'xshaysiz, hali tirik bo'lsangiz")   
 }
 else  {
