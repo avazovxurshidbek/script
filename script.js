@@ -3,35 +3,37 @@
 
 // 1-homework
 
-// var ism = prompt('Ismingizni kiriting?')
-// if(ism == 'Xurshidbek'){
-//     alert('Hello Boss')   
-// }
-// else{
-//    alert('Hello guest')   
-// }
+var ism = prompt('Ismingizni kiriting?')
+if(ism == 'Xurshidbek'){
+    alert('Hello Boss')   
+}
+else{
+   alert('Hello guest')   
+}
+
 
 // 2-homework
 
-// var  yosh = prompt('Yoshingizni kiriting')
-// if( yosh <= 0){
-//     alert("Nimadir notog'ri ketib qoldi")   
-// }
-// else if(0 <= yosh,yosh <= 18){
-//     alert("Yoshsiz. O'qishingiz kerak")   
-// }
-// else if(   18 < yosh, yosh <= 50){
-//     alert("Ishlashingiz kerak")   
-// }
-// else if(   50 < yosh, yosh <= 59){
-//     alert("Yaqinda pensiyaga chiqasiz")   
-// }
-// else if(   59 < yosh, yosh <= 150){
-//     alert("Pensiyanerga o'xshaysiz, hali tirik bo'lsangiz")   
-// }
-// else  {
-//    alert("Nimadir notog'ri ketib qoldi")   
-// }
+var  yosh = prompt('Yoshingizni kiriting')
+if( yosh <= 0){
+    alert("Nimadir notog'ri ketib qoldi")   
+}
+else if(0 <= yosh,yosh <= 18){
+    alert("Yoshsiz. O'qishingiz kerak")   
+}
+else if(   18 < yosh, yosh <= 50){
+    alert("Ishlashingiz kerak")   
+}
+else if(   50 < yosh, yosh <= 59){
+    alert("Yaqinda pensiyaga chiqasiz")   
+}
+else if(   59 < yosh, yosh <= 150){
+    alert("Pensiyanerga o'xshaysiz, hali tirik bo'lsangiz")   
+}
+else  {
+   alert("Nimadir notog'ri ketib qoldi")   
+}
+
 
 // 3-homework
 
@@ -58,17 +60,17 @@ else if ( b < c && c < a) {
     alert("O'rta qiymat "+c) 
 }
 
+
 // 4-homework
 
-
-// var son=+prompt("Son kiriting")
-// k=0
-// while(k <= son){
-// c=k
-// console.log(c);
-// k=c+1
-// }
-// alert("Rasa assabni buzadidan narsa ekan tortinchisi");
+var son=+prompt("Son kiriting")
+k=0
+while(k <= son){
+c=k
+console.log(c);
+k=c+1
+}
+alert("Rasa assabni buzadidan narsa ekan tortinchisi");
 
 
 
