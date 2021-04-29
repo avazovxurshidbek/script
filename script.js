@@ -40,37 +40,99 @@ else  {
 var a = +prompt("1-soni kiriting") 
 var b = +prompt("2-soni kiriting") 
 var c = +prompt("3-soni kiriting") 
-    
-if (b  > a && a > c ) {
+if (b > a  && c < a || b < a && c > a) {
     alert("O'rta qiymat "+a) 
-}     
-else  if (b  < a && a < c ){
-    alert("O'rta qiymat "+a) 
-}
-else  if (a > b && b > c ) {
+}else if (a > b  && c < b || a < b && c > b) {
     alert("O'rta qiymat "+b) 
-  }    
-else  if ( a < b && b < c ) {
-    alert("O'rta qiymat "+b) 
-  }    
-else if (b > c && c > a) {
+}else if (b > c  && a < c || b < c && a > c) {
     alert("O'rta qiymat "+c) 
-}
-else if ( b < c && c < a) {
-    alert("O'rta qiymat "+c) 
-}
-
+} 
 
 // 4-homework
 
 var son=+prompt("Son kiriting")
-k=0
-while(k <= son){
-c=k
-console.log(c);
-k=c+1
+c=0
+while(c <= son){
+console.log(c++);
 }
 alert("Rosa asabni buzadigan narsa ekan torisi");
+
+dilfin
+var v2=3 , v1=1
+var dil=+prompt('Dilfin hizmatidan foyadalanasizmi 👉🐬 1/0')
+while(isNaN(dil)){
+     dil=prompt('Seryozna so\'rayabman 😡 1/0')
+}if (dil){
+v1=2}
+var s1=+prompt('Odamdan qirg\'oqacha masofani🏊‍♂️👉🏖')
+var s2=+prompt('Akuladan odamgacha masofani🦈👉🏊‍♂️')
+if (s1/v1>=(s1+s2)/v2){
+    alert('Shark Bait 😫')
+}else  {
+    alert('Alive 🤪')}
+
+
+// 5-homework
+
+var soni = prompt('sonini kiriting');
+while(isNaN(soni)||soni<0){
+    soni = prompt('sonini kiriting');}
+for (var i = 1; i<=soni; i++){
+    if(i == 1){
+       b= i+" qo'y..."
+    }else {
+      b=b+i+" qo'ylar..."  }
+}console.log(b);
+
+ivan
+var ism=prompt("ismingizni yozing")
+var a=prompt("hozirgi yilni kiriting")
+var b=prompt('tugulgan yiligizni kiriting')
+function age(a,b){
+    return a-b}
+let yoshi=age(a,b)
+console.log(ism+', yoshingiz '+yoshi);
+
+
+
+
+
+// 6-homework
+
+var soni=prompt('yechmoqchi bo\'lgan misollar sonini kiriting')
+for (let i = 0; i<soni; i++) {
+    function ex(){
+        let a=Math.trunc(Math.random()*100)
+        let b=Math.trunc(Math.random()*100)
+        let c=Math.trunc(Math.random()*10)
+        if (c>=0 && c<3 ){
+                if(a>b && a!==0 && b!==0){
+                resalt=a/b
+                fon=+prompt(`${a}/${b}=?`)     
+                }else if(a<b && a!==0 && b!==0){
+                resalt=b/a
+                fon=+prompt(`${b}/${a}=?`)      
+                }else{
+                resalt=a+b
+                fon=+prompt(`${a}+${b}=?`)}
+        }else if(c>=3 && c<5 ){
+                resalt=a*b
+                fon=+prompt(`${a}*${b}=?`)      
+        }else if(c>=5 && c<7){
+                resalt=a+b
+                fon=+prompt(`${a}+${b}=?`)      
+        }else {
+                resalt=a-b
+                fon=+prompt(`${a}-${b}=?`)     
+        }
+        if( resalt==fon ){
+            console.log("javob togri " +"  siz kiritgan javob "+(fon) +"  to\'g\'ri javob "+(resalt));
+        }else{
+            console.log("javob xato " +"   siz kiritgan javob "+(fon) +"  to\'g\'ri javob "+(resalt));
+        }
+    }
+ ex()
+}
 
 
 
