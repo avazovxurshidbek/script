@@ -48,6 +48,7 @@ if (b > a  && c < a || b < a && c > a) {
     alert("O'rta qiymat "+c) 
 } 
 
+
 // 4-homework
 
 var son=+prompt("Son kiriting")
@@ -92,9 +93,6 @@ function age(a,b){
     return a-b}
 let yoshi=age(a,b)
 console.log(ism+', yoshingiz '+yoshi);
-
-
-
 
 
 // 6-homework
