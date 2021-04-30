@@ -58,7 +58,7 @@ console.log(c++);
 }
 alert("Rosa asabni buzadigan narsa ekan torisi");
 
-dilfin
+// dilfin
 var v2=3 , v1=1
 var dil=+prompt('Dilfin hizmatidan foyadalanasizmi 👉🐬 1/0')
 while(isNaN(dil)){
