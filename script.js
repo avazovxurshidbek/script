@@ -58,7 +58,7 @@ console.log(c++);
 }
 alert("Rosa asabni buzadigan narsa ekan torisi");
 
-// dilfin
+// 5-homework
 var v2=3 , v1=1
 var dil=+prompt('Dilfin hizmatidan foyadalanasizmi 👉🐬 1/0')
 while(isNaN(dil)){
@@ -73,7 +73,7 @@ if (s1/v1>=(s1+s2)/v2){
     alert('Alive 🤪')}
 
 
-// 5-homework
+// 6-homework
 
 var soni = prompt('sonini kiriting');
 while(isNaN(soni)||soni<0){
@@ -85,7 +85,7 @@ for (var i = 1; i<=soni; i++){
       b=b+i+" qo'ylar..."  }
 }console.log(b);
 
-ivan
+// 7-homework
 var ism=prompt("ismingizni yozing")
 var a=prompt("hozirgi yilni kiriting")
 var b=prompt('tugulgan yiligizni kiriting')
@@ -95,7 +95,7 @@ let yoshi=age(a,b)
 console.log(ism+', yoshingiz '+yoshi);
 
 
-// 6-homework
+// 8-homework
 
 var soni=prompt('yechmoqchi bo\'lgan misollar sonini kiriting')
 for (let i = 0; i<soni; i++) {
