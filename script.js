@@ -132,6 +132,44 @@ for (let i = 0; i<soni; i++) {
  ex()
 }
 
+9-homework
+
+const persons = []
+while(true){
+  let command = prompt('komandani kiriting')
+  command=command.split(', ')
+ if( command[0]== 'add'){
+     persons.push(command[1])
+    
+ }else if (command[0] == 'del'){
+    for (let i = 0; i < persons.length; i++) {
+       if(persons[i]==command[1]){
+           persons.splice(i,1)
+       }
+        
+    }
+ }else if (command =='stop'){
+  break   
+ }
+ 
+console.log(persons);
+}
+
+10-homework
+function vowels(gap){
+    const unlilar ='aueoiyAUEOIY'
+    let count = 0
+    console.log(gap);
+    for (let i = 0; i < gap.length; i++) {
+        for (let j = 0; j < unlilar.length; j++) {
+         gap[i]==unlilar[j]? count++: ''
+            
+        }
+        
+    }
+return count
+}
+
 
 
 
