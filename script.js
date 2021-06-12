@@ -132,7 +132,7 @@ for (let i = 0; i<soni; i++) {
  ex()
 }
 
-9-homework
+//9-homework
 
 const persons = []
 while(true){
@@ -155,7 +155,7 @@ while(true){
 console.log(persons);
 }
 
-10-homework
+//10-homework
 function vowels(gap){
     const unlilar ='aueoiyAUEOIY'
     let count = 0
